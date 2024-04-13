@@ -27,11 +27,17 @@
 
     <label for="country">Country of Residence:</label><br>
     <select id="country" name="country" required>
-        <option value="">Select Country</option>
-        <option value="USA">United States</option>
-        <option value="UK">United Kingdom</option>
-        <option value="Canada">Canada</option>
-        <!-- Add more options as needed -->
+        <option value="Brunei">Brunei</option>
+        <option value="Cambodia">Cambodia</option>
+        <option value="Indonesia">Indonesia</option>
+        <option value="Laos">Laos</option>
+        <option value="Malaysia">Malaysia</option>
+        <option value="Myanmar">Myanmar</option>
+        <option value="Philippines">Philippines</option>
+        <option value="Singapore">Singapore</option>
+        <option value="Thailand">Thailand</option>
+        <option value="Timor-Leste">Timor-Leste</option>
+        <option value="Vietnam">Vietnam</option>
     </select><br><br>
 
     <label>Areas of Interest:</label><br>
