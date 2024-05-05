@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Document</title>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #background {
+        display: flex;
+        flex-direction: column;
+        background-color:green;
+        width: 80%;
+        margin: auto;
+    }
+
+    #logo{
+        display: flex;
+        flex-direction: row;
+        background-color: magenta;
+        min-height: 50px;
+        padding-left: 10px;
+        align-items: center;
+    }
+
+    #navigation{
+     display: flex;
+     flex-direction: row;
+     width: 100%;
+     min-height: 30px;
+     background-color: orange;
+     margin-top:10px;
+     justify-content: space-between;
+    }
+
+    #header{
+        display: flex;
+        flex-direction: row;
+        width:100%;
+        min-height: 70px;
+        background-color:blue;
+        margin-top:10px;
+        align-items:center;
+        justify-content: center;
+    }
+
+    #body{
+        display:flex;
+        flex-direction: row;
+        width: 100%;
+        min-height: 150px;
+        background-color: red;
+        margin-top: 10px;
+        justify-content: space-between;
+    }
+
+    #side-bar{
+        display: flex;
+        flex-direction: column;
+        background-color: cyan;
+        flex-basis: 20%;
+    }
+
+    #body-area{
+        display: flex;
+        flex-direction: column;
+        background-color: chartreuse;
+        flex-basis: 75%;
+    }
+
+    #footer{
+        display: flex;
+        flex-direction: row;
+        background-color: hotpink;
+        width: 100%;
+        min-height: 20px;
+        margin-top: 10px;
+        justify-content: center;
+        align-items:center;
+    }
+
+
+</style>
+
+<head>
+    <body>
+<div id="background">
+    <div id="logo">
+        <div>Logo 1</div>
+    </div>
+
+    <div id="navigation">
+        <div><a href="www.google.com">Google</a></div>
+        <div><a href="www.yahoo.com">Yahoo</a></div>
+    </div>
+
+    <div id="header">
+        <div>Header/Banner</div>
+    </div>
+
+    <div id="body">
+        <div id="side-bar">Side Bar </div>
+        <div id="body-area">Body Area </div>
+    </div>
+
+    <div id="footer">
+        &copy AMIRA SHAMSUDIN
+    </div>
+
+</div>
+    </body>
+</head>
